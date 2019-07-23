@@ -1,48 +1,56 @@
-package General;
+package com.general;
 
 public class TeeVee {
-	protected String brand="Sony";
-	protected String model="WTF1985";
-	protected boolean powerOn=false;
-	protected byte channel;
-	protected byte volume;
-		
-	public void turnOn() {
-		powerOn=true;
+	private String brand="Sony";
+	private String model="WTF99";
+	private boolean powerOn;
+	byte channel;
+	byte volume;
+	private byte volumePrev;
+	private boolean isMute;
+
+	//mietody
+	public void turnOn(){
+		this.powerOn = true;
 	}
-	
-	public void turnOff() {
-		powerOn=false;
+	public void turnOff(){
+		this.powerOn = false;
 	}
-	
-	public void channelUp() {
-		if (channel==13){
+	public void channelUp(){
+		if (this.channel<13){
+			channel++;
+		} else {
 			channel=0;
-		} else {
-		channel++;
 		}
 	}
-
-	public void channelDown() {
-		if (channel==0){
+	public void channelDown(){
+		if (this.channel>0){
+			channel--;
+		} else {
 			channel=13;
-		} else {
-		channel--;
 		}
 	}
-
-	public void volumeUp() {
-		if (volume<10){
+	public void volumeUp(){
+		if (this.volume<5){
 			volume++;
 		}
 	}
-
-	public void volumeDown() {
-		if (volume>0){
+	public void volumeDown(){
+		if (this.volume>0){
 			volume--;
 		}
 	}
-	
+	public void mute(){
+		if(isMute){
+			this.volume = volumePrev;
+			isMute=false;
+		} else {
+			this.volumePrev = volume;
+			volume = 0;
+			isMute=true;
+		}
+	}
+	//kąstruktor do dziedziczenia
 	public TeeVee (String brand, String model) {
 		this.brand=brand;
 		this.model=model;
@@ -59,11 +67,10 @@ public class TeeVee {
 	public byte howLoud() {
 		return this.volume;
 	}
-	public String toString() {
-		return this.brand + " "+this.model+" "+this.powerOn+" "+this.channel+" "+this.volume;
+	public String statusTV() {
+		return this.brand+" "+this.model+" "+this.powerOn+" "+this.channel+" "+this.volume;
 	}
-	public static void main(String[] args) {
-		System.out.println("Im a TV!!!");
+	public boolean isMuted() {
+		return this.isMute;
 	}
-
 }

@@ -1,13 +1,13 @@
-package General;
+package com.general;
 import java.util.Scanner;
 public class game {
 
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
+	public static void main(String[] args){
 		System.out.print("You want to play a game? Enter your name: ");
-		String imie = input.nextLine();
+		String imie;
+		Scanner input  = new Scanner(System.in);
+		imie = input.nextLine();
 		input.close();
 		System.out.println(imie + "! You lost the game...");
 	}
-
 }
