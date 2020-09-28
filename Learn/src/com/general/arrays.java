@@ -175,4 +175,4 @@ public class arrays {
 		pluj("\n\n");
 		histogram(liczone,1);
 	}
-}
+}// test
