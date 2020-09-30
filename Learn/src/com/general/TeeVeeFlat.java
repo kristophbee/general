@@ -1,4 +1,4 @@
-package General;
+package com.general;
 public class TeeVeeFlat extends TeeVeeColor {
 	
 	TeeVeeFlat(String maker, String model){

@@ -1,4 +1,4 @@
-package General;
+package com.general;
 public class twelveDays {
 	public static void delayText(int delay){
 		try {

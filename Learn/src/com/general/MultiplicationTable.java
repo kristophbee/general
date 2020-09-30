@@ -1,4 +1,4 @@
-package General;
+package com.general;
 public class MultiplicationTable {
 	public static void main(String[] args) {
 		for(int row = 1; row<=10; row++) {			

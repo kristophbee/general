@@ -1,4 +1,4 @@
-package General;
+package com.general;
 
 public class argsFun {
 // java -Dhero0="Wonderwoman" -Dhero1="Arrow" argsFun Superman Batman Aquaman 

@@ -1,4 +1,4 @@
-package General;
+package com.general;
 
 public class GuyController {
 

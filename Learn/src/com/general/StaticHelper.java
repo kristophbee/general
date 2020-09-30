@@ -1,4 +1,4 @@
-package General;
+package com.general;
 import java.time.LocalDate;
 
 public class StaticHelper {
