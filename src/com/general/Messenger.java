@@ -14,7 +14,7 @@ public class Messenger {
 	public static String send(String user, Path messages) throws IOException {
 		String userLogin=user, recepient="defrec", message="defmes";
 		//option to leave a message
-		@SuppressWarnings("resource")
+		//@SuppressWarnings("resource")
 		Scanner input1 = new Scanner(System.in);
 		System.out.print("Who do you want to message? ");
 		//read recepient
@@ -58,7 +58,7 @@ public class Messenger {
 	}
 	
 	public static void main(String[] args) throws IOException {
-		@SuppressWarnings("resource")
+		//@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		System.out.print("Whats your login? ");
 		String userLogin = input.nextLine();

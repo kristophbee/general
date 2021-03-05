@@ -28,6 +28,9 @@ public class hello {
 		long minlongVal = Long.MIN_VALUE, maxlongVal = Long.MAX_VALUE;
 		out.println("Long\nMin value "+minlongVal+"\nMax value "+maxlongVal);
 		out.println(dlugiVal);
-
+		suma = (minIntValue / 2);
+		byte nowyBajt = (byte)(minByteVal/2);
+		short nowySzort = (short) (minshortVal/2);
+		out.println(suma +" "+ nowyBajt + " " + nowySzort);
 	}
 }
