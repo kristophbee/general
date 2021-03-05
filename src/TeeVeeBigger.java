@@ -1,5 +1,3 @@
-package com.general;
-
 public class TeeVeeBigger extends TeeVee {
 
 	protected TeeVeeBigger(String maker, String model){

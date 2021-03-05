@@ -1,4 +1,3 @@
-package com.general;
 public class hello {
 	//deklaracja statycznej wartości. Może być w dowolnym miejscu programu.
 	static String helloMessage;

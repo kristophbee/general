@@ -1,4 +1,3 @@
-package com.general;
 public class funWithArgs {
 	public static void main(String[] args) {
 // java -Dhero0=galoty -Dhero1=czapeczka funWithArgs gacie skarpety koszulka

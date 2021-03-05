@@ -1,5 +1,3 @@
-package com.general;
-
 public class TeeVee {
 	private String brand="Sony";
 	private String model="WTF99";

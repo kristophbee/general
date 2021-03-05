@@ -1,4 +1,3 @@
-package com.general;
 public class beniz {
 	public static void main(String args[]){
 

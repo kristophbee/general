@@ -1,5 +1,3 @@
-package com.general;
-
 public class obiektowo {
 
 	public int getSum(int augend, int added) {

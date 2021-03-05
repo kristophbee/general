@@ -1,5 +1,3 @@
-package com.general;
-
 public class recursive {
 
 	public static long fibonacci(long n) {

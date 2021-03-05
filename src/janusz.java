@@ -1,5 +1,3 @@
-package com.general;
-
 public class janusz {
 
 	public static void main(String[] args) {

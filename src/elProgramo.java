@@ -1,4 +1,3 @@
-package com.general;
 public class elProgramo {
 	public static void main(String[] args) {
 		//if ((args == null)||(args.length==0)){

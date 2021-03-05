@@ -1,4 +1,3 @@
-package com.general;
 public class loops {
 	static final int KONSTANT = 3; 
 	public static void main(String[] args) {

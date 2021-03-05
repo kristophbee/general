@@ -1,4 +1,3 @@
-package com.general;
 import javax.swing.JOptionPane;
 public class czeslaw{
 	public void sayDzienDobry(){

@@ -1,5 +1,3 @@
-package com.general;
-
 import java.util.Scanner;
 
 public class RandomNumbersGenerator {

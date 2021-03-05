@@ -1,5 +1,3 @@
-package com.general;
-
 public class numbersletters {
 
 	public static void main(String[] args) {

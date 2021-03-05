@@ -1,4 +1,3 @@
-package com.general;
 public class importy {
 	@SuppressWarnings("unused")
 	private int instanceVar;

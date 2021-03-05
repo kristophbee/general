@@ -1,4 +1,3 @@
-package com.general;
 public class simple {
 	public static void main(String args[]){
 		boolean kejs;

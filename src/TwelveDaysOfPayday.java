@@ -1,5 +1,3 @@
-package com.general;
-
 public class TwelveDaysOfPayday {
 	protected static void delayText(int mseconds) {
 		try {

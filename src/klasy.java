@@ -1,4 +1,3 @@
-package com.general;
 public class klasy {
 	//wartości
 	public String opis;
