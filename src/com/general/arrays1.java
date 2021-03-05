@@ -2,7 +2,7 @@ package com.general;
 import java.util.Arrays;
 import java.util.Random;
 
-public class arrays {
+public class arrays1 {
 
 	public static void pluj (String val){
 		System.out.print(val);

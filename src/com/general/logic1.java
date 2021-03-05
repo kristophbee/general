@@ -1,7 +1,7 @@
 package com.general;
 import java.time.*;
 
-public class logic {
+public class logic1 {
 	public static void main (String args[]){
 	int a=1, b=2;
 	//@SuppressWarnings("unused")

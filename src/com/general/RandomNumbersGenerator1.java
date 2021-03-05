@@ -2,7 +2,7 @@ package com.general;
 
 import java.util.Scanner;
 
-public class RandomNumbersGenerator {
+public class RandomNumbersGenerator1 {
 
 	public static void main(String[] args) {
 		int amount, line=0;

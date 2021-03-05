@@ -1,5 +1,5 @@
 package com.general;
-public class math {
+public class math1 {
 
 	public static boolean isDivisible(int x, int y){
 		return (x%y==0);
