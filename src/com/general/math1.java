@@ -167,7 +167,7 @@ public class math1 {
 		//przykładowy program
 		drugi = 99_000_000_000L;
 		float1 = 13.5F;
-		@SuppressWarnings("unused")
+		//@SuppressWarnings("unused")
 		char ch1 = 'U';
 		System.out.println("long: " + drugi);
 		//long do inta
