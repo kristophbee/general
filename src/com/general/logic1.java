@@ -4,7 +4,7 @@ import java.time.*;
 public class logic {
 	public static void main (String args[]){
 	int a=1, b=2;
-	@SuppressWarnings("unused")
+	//@SuppressWarnings("unused")
 	boolean test, t2=true, t3=false;
 	//testy logiczne
 	System.out.println("Is " + a + " bigger than " + b + "? " + (test=(a>b)));

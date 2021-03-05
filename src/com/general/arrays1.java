@@ -26,7 +26,8 @@ public class arrays {
 		}
 	}
 	public static void histogram(int[] oceny, int wwln){
-		for (@SuppressWarnings("unused") int ptla : oceny){
+		for ( int ptla : oceny){
+		//for (@SuppressWarnings("unused") int ptla : oceny){
 			//if(oceny[ptla]==wwln){
 				pluj(oceny+"\n");
 			//}
@@ -64,7 +65,7 @@ public class arrays {
 		}
 		int size=3;//do zmiennej tabelki poniżej
 		int[] counts = new int[4];
-		@SuppressWarnings("unused")
+		//@SuppressWarnings("unused")
 		double[] values = new double[size];
 
 		counts[0] = 7;
@@ -80,7 +81,7 @@ public class arrays {
 		pluj("\n"+counts);
 		pluj("\n Orginał:\t"+Arrays.toString(counts));
 		//odwołanie do tej samej tablicy:
-		@SuppressWarnings("unused")
+		//@SuppressWarnings("unused")
 		int[] b = counts;
 		//kopia niezależna tablicy
 		int[] copia = new int [4];
