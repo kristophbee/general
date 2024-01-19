@@ -1,4 +1,5 @@
 import datetime as dt
+#TODO zastąpić starą bibliotekę
 from dateutil.tz import gettz
 dzisiaj = dt.date.today()
 print(dzisiaj)
@@ -75,14 +76,14 @@ print(zdarzenie.astimezone(gettz("America/Boise")))
 print(zdarzenie.astimezone(gettz("America/Los_Angeles")))
 warunek = True
 if warunek == True :
-        print("Prawda!")
+	print("Prawda!")
 else :
-        print("Fałsz!")
+	print("Fałsz!")
 warunek = False
 if warunek == True :
-        print("Prawda!")
+	print("Prawda!")
 else :
-        print("Fałsz!")
+	print("Fałsz!")
 
 if (now.hour < 12) and (now.hour >=1):
 	print("gu moron")

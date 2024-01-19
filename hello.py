@@ -8,25 +8,25 @@ calkowita = 6
 print(calkowita, " w binarze to", bin(calkowita))
 print(bin(int(cena)))  # int konwertuje cenę do całkowitej
 ujemna = -1234
-print(abs(ujemna))
-print(int(cena))
+print(abs(ujemna))#wartość absulutna
+print(int(cena))#cena skrócona do liczby całkowitej
 ujemnyflot = -456.789
 pi = 3.14159265358979
-print(int(abs(ujemnyflot)))
-print(round(pi, 4))
-print(bin(calkowita))
-print(hex(calkowita))
-print(oct(calkowita))
-print(max(pi, calkowita, cena, ujemna, ujemnyflot))
-print(min(pi, calkowita, cena, ujemna, ujemnyflot))
-print(type(pi))
+print(int(abs(ujemnyflot)))#ujemny flot w formie absolutnej
+print(round(pi, 4))#Pi ogarnięte do 4 liczb po przecinku
+print(bin(calkowita))#calkowita jako binar
+print(hex(calkowita))#całkowita w szesnastkowym
+print(oct(calkowita))#całkowita w ósemkowym
+print(max(pi, calkowita, cena, ujemna, ujemnyflot))#konkurs na największą liczbę
+print(min(pi, calkowita, cena, ujemna, ujemnyflot))#konkurs na najmniejszą
+print(type(pi))#klasyfikacja zmiennych
 print(type(calkowita))
 print(type(str(ujemnyflot)))
-print(math.sqrt(81))
-mathpi = math.pi
-e = math.e
-tau = math.tau
-print(mathpi)
+print(math.sqrt(81))#pierwiastek
+mathpi = math.pi#pi z biblioteki math
+e = math.e#Liczba Eulera z biblioteki math
+tau = math.tau#chuj wie co to, dawno to pisałem
+print(mathpi)#wypisywanie zmiennych
 print(e)
 print(tau)
 print(math.factorial(calkowita))
