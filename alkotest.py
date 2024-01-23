@@ -48,6 +48,8 @@ lumpy = ["Ferdek", "Damian", "Edek", "Czesio"]
 print(lumpy)
 lumpy.extend(menele)#Fuzja i synergia lokalnych bezdomych
 print(lumpy)
+lumpy.reverse()#odwracamy szereg
+print(lumpy)
 lumpy.remove("Zenek")#Zenek pali wroty
 print(lumpy)
 lumpy.pop(3)#Czwarty pali wroty
