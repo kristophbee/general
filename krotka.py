@@ -28,7 +28,7 @@ print(zbior1|zbior2)#wszystko z obu
 print(zbior1.issubset(zbior2))#czy 1 jest podzbiorem 2?
 #Moszna zagniezdzać typy danych
 listaZdzisi = [#lista
-               ("Marek",23,"Facio"),#zagniedone krotki
+               ("Marek",23,"Facio"),#zagnieżdżone krotki
                ("Darek",29,"Facio"),
                ("Klotylda",63,"Kobitka")
 ]
@@ -36,7 +36,7 @@ print(listaZdzisi)
 listaZdzisi.append(("Genowefa",66,"Kobitka"))#dodajmy gościa
 print(listaZdzisi)
 zbiorZdzisi = {#secik
-               ("Marek",23,"Facio"),#zagniedone krotki
+               ("Marek",23,"Facio"),#zagnieżdżone krotki
                ("Darek",29,"Facio"),
                ("Klotylda",63,"Kobitka")
 }#zbiór pozwala na unikalne wartości, chędozyc duplikaty :)
