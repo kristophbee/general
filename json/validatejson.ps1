@@ -6,4 +6,8 @@ $jsonobj = $json | ConvertTo-Json
 $schemaFile = (Get-ChildItem -Path ".\json\schema.json").FullName
 #test json via schema
 $result = $jsonobj | Test-Json -SchemaFile $schemaFile
-$result
+if ($result){
+    Write-Output("All good, a perfect match!")
+} else {
+    $result
+}
