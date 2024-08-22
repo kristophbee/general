@@ -1,8 +1,8 @@
 #load json
-$json=Get-Content "data.json" | ConvertFrom-Json
+$json=Get-Content "data.json" | ConvertFrom-Json -Depth 22
 Write-Output($json)
 #convert to json again
-$jsonobj = $json | ConvertTo-Json
+$jsonobj = $json | ConvertTo-Json -Depth 22
 #load schema
 $schemaFile = (Get-ChildItem -Path "schema.json").FullName
 #test json via schema
