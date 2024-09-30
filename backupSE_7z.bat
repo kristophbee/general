@@ -1,1 +1,1 @@
-"C:\Program Files\7-Zip\7z.exe" -t7z u "%AppData%\Roaming\SpaceEngineers\Saves" "%Onedrive%\Dokumenty\Space Engineers backup\Master.7z"
+"C:\Program Files\7-Zip\7z.exe" -t7z u "%AppData%\Roaming\SpaceEngineers\Saves" "%Onedrive%\Space Engineers backup\Master.7z"
