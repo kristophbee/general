@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1408666708 source:/home/kris/prog/cpp/CPPFDCh01/main.cpp
+	<cstdio>
+	<iostream>
+	<cstdlib>
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1418421557 source:/home/kris/prog/cpp/HerosInventory3/main.cpp
+	<iostream>
+	<string>
+	<vector>
+
+1421596481 source:/home/kris/Dokumenty/HerosInventory3/main.cpp
+	<iostream>
+	<string>
+	<vector>
+

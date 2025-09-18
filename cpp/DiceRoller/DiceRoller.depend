@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1409370672 source:/home/kris/Dokumenty/DiceRoller/main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

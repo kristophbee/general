@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1418343970 source:/home/kris/prog/cpp/WordJumble/main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<ctime>
+

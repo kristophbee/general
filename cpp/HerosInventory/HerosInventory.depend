@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1410014544 source:/home/kris/prog/cpp/HerosInventory/main.cpp
+	<iostream>
+	<string>
+

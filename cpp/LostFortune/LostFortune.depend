@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1409166047 source:/home/kris/prog/cpp/LostFortune/main.cpp
+	<iostream>
+	<string>
+
