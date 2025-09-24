@@ -79,3 +79,5 @@ def main(original=sys.argv[1], replica=sys.argv[2], interval=int(sys.argv[3]), n
             time.sleep(interval)
     except KeyboardInterrupt:
         logging.info("Synchronization process terminated by user.")
+
+main()
